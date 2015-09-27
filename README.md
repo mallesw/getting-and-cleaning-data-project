@@ -17,12 +17,10 @@ The R script, `run_analysis.R`, does the following:
 3. Merges the dataset to create one data set
 5. Extracts the mean and standard deviation for each measurement
 6. Converts the `activity` columns to descriptive labels
-7. Converts the `subject' columns to descriptive labels
+7. Converts the `subject` columns to descriptive labels
 8. Creates a tidy dataset that has the means value of each variable for each subject and activity. 
 9. Outputs `tidydata.txt` file
-7. Creates a tidy dataset that consists of the average (mean) value of each
-   variable for each subject and activity pair.
 
-The end result is shown in the file `tidy.txt`.
+
 ### Additional Information
-You can find additional information about the variables, data and transformations in the CodeBook.MD file.
+Information about the variables, data and transformations in the CodeBook.MD file.
