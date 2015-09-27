@@ -10,14 +10,19 @@ This project demonstrates the collection and cleaning of a tidy data set that ca
 
 
 ### Project Summary
-The following are the project instructions which R script in this repo accomplishes. 
+The R script, `run_analysis.R`, does the following:
 
-You should create one R script called run_analysis.R that does the following. 
-*1. Merges the training and the test sets to create one data set.
-*2. Extracts only the measurements on the mean and standard deviation for each measurement. 
-*3. Uses descriptive activity names to name the activities in the data set
-*4. Appropriately labels the data set with descriptive activity names. 
-*5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
+1. Downloads the dataset if it does not already exist in the working directory
+2. Loads the activity, feature, and subject test and train files
+3. Merges the dataset to create one data set
+5. Extracts the mean and standard deviation for each measurement
+6. Converts the `activity` columns to descriptive labels
+7. Converts the `subject' columns to descriptive labels
+8. Creates a tidy dataset that has the means value of each variable for each subject and activity. 
+9. Outputs `tidydata.txt` file
+7. Creates a tidy dataset that consists of the average (mean) value of each
+   variable for each subject and activity pair.
 
+The end result is shown in the file `tidy.txt`.
 ### Additional Information
 You can find additional information about the variables, data and transformations in the CodeBook.MD file.
